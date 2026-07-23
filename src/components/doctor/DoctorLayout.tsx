@@ -19,7 +19,6 @@ const navItems: { to: string; label: string; icon: any; exact?: boolean }[] = [
   { to: "/doctor", label: "Dashboard", icon: LayoutDashboard, exact: true },
   { to: "/doctor/appointments", label: "Appointments", icon: CalendarDays },
   { to: "/doctor/patients", label: "Patients", icon: Users },
-  { to: "/doctor/medical-records", label: "Medical Records", icon: FileText },
   { to: "/doctor/lab-requests", label: "Lab Requests", icon: FlaskConical },
   { to: "/doctor/profile", label: "Profile", icon: UserCircle },
 ];
