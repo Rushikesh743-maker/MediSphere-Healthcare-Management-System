@@ -22,7 +22,7 @@ function DoctorDashboard() {
   const { requests, queue } = useReceptionStore();
   const { tests } = useLabStore();
   const user = getCurrentUser();
-  const doctorName = user?.name ?? "Dr. Ayesha Sharma";
+  const doctorName = user?.name ?? "Dr.Ruhikesh N";
 
   const myAppts = requests.filter(
     (r) => r.status === "Confirmed" && r.assignedDoctor === doctorName,

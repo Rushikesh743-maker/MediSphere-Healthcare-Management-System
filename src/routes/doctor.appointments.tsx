@@ -19,7 +19,7 @@ function AppointmentsPage() {
   const [query, setQuery] = useState("");
   const { requests, queue } = useReceptionStore();
   const user = getCurrentUser();
-  const doctorName = user?.name ?? "Dr. Ayesha Sharma";
+  const doctorName = user?.name ?? "Dr.Ruhikesh N";
 
   const appts = useMemo(() => {
     const mine = requests.filter(

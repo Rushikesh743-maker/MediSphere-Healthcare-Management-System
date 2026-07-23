@@ -57,7 +57,7 @@ export const patientProfile = {
 export const patientAppointments: PatientAppointment[] = [
   {
     id: "PA001",
-    doctor: "Dr. Ayesha Sharma",
+    doctor: "Dr.Ruhikesh N",
     department: "General Medicine",
     date: "2026-07-15",
     time: "10:30",
@@ -75,7 +75,7 @@ export const patientAppointments: PatientAppointment[] = [
   },
   {
     id: "PA003",
-    doctor: "Dr. Ayesha Sharma",
+    doctor: "Dr.Ruhikesh N",
     department: "General Medicine",
     date: "2026-06-10",
     time: "11:00",
@@ -96,7 +96,7 @@ export const patientAppointments: PatientAppointment[] = [
 export const prescriptions: Prescription[] = [
   {
     id: "RX1001",
-    doctor: "Dr. Ayesha Sharma",
+    doctor: "Dr.Ruhikesh N",
     date: "2026-06-10",
     diagnosis: "Type 2 Diabetes — routine review",
     medicines: [
@@ -107,7 +107,7 @@ export const prescriptions: Prescription[] = [
   },
   {
     id: "RX1002",
-    doctor: "Dr. Ayesha Sharma",
+    doctor: "Dr.Ruhikesh N",
     date: "2026-05-14",
     diagnosis: "Viral fever",
     medicines: [
@@ -131,7 +131,7 @@ export const patientLabReports: PatientLabReport[] = [
   {
     id: "LR2001",
     test: "HbA1c",
-    requestedBy: "Dr. Ayesha Sharma",
+    requestedBy: "Dr.Ruhikesh N",
     date: "2026-06-20",
     status: "Completed",
     result: "6.8% (target <7%)",
@@ -140,7 +140,7 @@ export const patientLabReports: PatientLabReport[] = [
   {
     id: "LR2002",
     test: "Complete Blood Count",
-    requestedBy: "Dr. Ayesha Sharma",
+    requestedBy: "Dr.Ruhikesh N",
     date: "2026-05-14",
     status: "Completed",
     result: "All values within normal range.",
@@ -155,7 +155,7 @@ export const patientLabReports: PatientLabReport[] = [
   {
     id: "LR2004",
     test: "Vitamin D",
-    requestedBy: "Dr. Ayesha Sharma",
+    requestedBy: "Dr.Ruhikesh N",
     date: "2026-07-09",
     status: "Pending",
   },
@@ -171,7 +171,7 @@ export const invoices: Invoice[] = [
 
 export const medicalRecords = {
   diagnoses: [
-    { condition: "Type 2 Diabetes", since: "2023-04-11", doctor: "Dr. Ayesha Sharma" },
+    { condition: "Type 2 Diabetes", since: "2023-04-11", doctor: "Dr.Ruhikesh N" },
     { condition: "Hypertension", since: "2022-11-02", doctor: "Dr. Rajiv Menon" },
   ],
   allergies: ["Penicillin", "Peanuts"],
@@ -190,8 +190,8 @@ export const medicalRecords = {
     updatedOn: "2026-06-10",
   },
   consultations: [
-    { date: "2026-06-10", doctor: "Dr. Ayesha Sharma", department: "General Medicine", diagnosis: "Diabetes follow-up", notes: "Continue Metformin, review in 4 weeks." },
-    { date: "2026-05-14", doctor: "Dr. Ayesha Sharma", department: "General Medicine", diagnosis: "Viral fever", notes: "Symptomatic treatment prescribed." },
+    { date: "2026-06-10", doctor: "Dr.Ruhikesh N", department: "General Medicine", diagnosis: "Diabetes follow-up", notes: "Continue Metformin, review in 4 weeks." },
+    { date: "2026-05-14", doctor: "Dr.Ruhikesh N", department: "General Medicine", diagnosis: "Viral fever", notes: "Symptomatic treatment prescribed." },
     { date: "2026-02-02", doctor: "Dr. Rajiv Menon", department: "Cardiology", diagnosis: "BP follow-up", notes: "Amlodipine continued." },
   ],
 };
@@ -208,7 +208,7 @@ export const departments = [
 ];
 
 export const doctorsByDepartment: Record<string, string[]> = {
-  "General Medicine": ["Dr. Ayesha Sharma", "Dr. Ramesh Iyer"],
+  "General Medicine": ["Dr.Ruhikesh N", "Dr. Ramesh Iyer"],
   Cardiology: ["Dr. Rajiv Menon", "Dr. Sanjana Kapoor"],
   Dermatology: ["Dr. Kavita Rao"],
   Orthopedics: ["Dr. Anil Deshmukh"],

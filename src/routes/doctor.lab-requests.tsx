@@ -15,7 +15,7 @@ const statusStyle: Record<string, string> = {
 function LabRequestsPage() {
   const { tests } = useLabStore();
   const user = getCurrentUser();
-  const doctorName = user?.name ?? "Dr. Ayesha Sharma";
+  const doctorName = user?.name ?? "Dr.Ruhikesh N";
   const labRequests = tests.filter((t) => t.doctor === doctorName);
   return (
     <div className="space-y-4">

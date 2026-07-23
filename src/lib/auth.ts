@@ -11,7 +11,7 @@ const KEY = "medisphere_auth";
 export const DEMO_CREDS: Record<string, { password: string; user: AuthUser }> = {
   doctor_demo: {
     password: "doctor123",
-    user: { userId: "doctor_demo", role: "doctor", name: "Dr. Ayesha Sharma" },
+    user: { userId: "doctor_demo", role: "doctor", name: "Dr.Ruhikesh N" },
   },
   patient_demo: {
     password: "patient123",

@@ -85,7 +85,7 @@ function ConsultationPage() {
       patientPhone: patient.phone,
       patientAge: patient.age,
       patientGender: patient.gender,
-      doctor: user?.name ?? "Dr. Ayesha Sharma",
+      doctor: user?.name ?? "Dr.Ruhikesh N",
       department: "General Medicine",
       symptoms,
       diagnosis,
