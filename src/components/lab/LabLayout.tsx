@@ -21,7 +21,6 @@ const navItems: { to: string; label: string; icon: any; exact?: boolean }[] = [
   { to: "/lab/in-progress", label: "In Progress", icon: Loader2 },
   { to: "/lab/completed", label: "Completed Tests", icon: CheckCircle2 },
   { to: "/lab/upload", label: "Upload Reports", icon: Upload },
-  { to: "/lab/search", label: "Patient Search", icon: Search },
   { to: "/lab/profile", label: "Profile", icon: UserCircle },
 ];
 
