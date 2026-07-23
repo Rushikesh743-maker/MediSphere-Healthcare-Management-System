@@ -21,7 +21,6 @@ const navItems: { to: string; label: string; icon: any; exact?: boolean }[] = [
   { to: "/reception", label: "Dashboard", icon: LayoutDashboard, exact: true },
   { to: "/reception/requests", label: "Appointment Requests", icon: ClipboardList },
   { to: "/reception/schedule", label: "Schedule Appointments", icon: CalendarPlus },
-  { to: "/reception/register", label: "Patient Registration", icon: UserPlus },
   { to: "/reception/patients", label: "Patient Directory", icon: Users },
   { to: "/reception/queue", label: "Queue Management", icon: ListOrdered },
   { to: "/reception/billing", label: "Billing", icon: Receipt },
